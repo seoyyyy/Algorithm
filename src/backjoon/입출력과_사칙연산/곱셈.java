@@ -13,9 +13,10 @@ public class 곱셈 {
         for(int i=b.length(); i>0; i--){
             int na = toInt(a);
             int nb = toInt(String.valueOf(b.charAt(i-1)));
+            int jari = (int)Math.pow(10,b.length()-i);
 
             System.out.println(na * nb);
-            result += na * nb * (int)Math.pow(10,b.length()-i);
+            result += na * nb * jari;
         }
         System.out.println(result);
     }
