@@ -1,5 +1,5 @@
 package programmers.level1;
-//음양 더하
+//음양 더하기
 public class EumYangAdd {
     public int solution(int[] absolutes, boolean[] signs) {
         int answer = 0;
