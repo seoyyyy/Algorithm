@@ -8,11 +8,9 @@ public class SamJinBub {
     public int solution(int n) {
         int answer = 0;
         ArrayList<Integer> list = new ArrayList<>();
-        while(true){
+        while(n>0){
             list.add(n%3);
             n = n/3;
-            if(n<=0)break;
-
         }
 
         for(int i=0; i<list.size(); i++){
