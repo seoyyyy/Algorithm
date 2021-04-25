@@ -1,5 +1,5 @@
 package programmers.level1;
-
+// 소수 만들기
 public class PrimeNumber {
     public int solution(int[] nums) {
         int answer = 0;
