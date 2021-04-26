@@ -1,4 +1,4 @@
-package backjoon.입출력과_사칙연산;
+package baekjoon.입출력과_사칙연산;
 
 public class WeLoveKriii {
     public static void main(String[] args){
