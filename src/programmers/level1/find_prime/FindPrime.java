@@ -11,7 +11,6 @@ public class FindPrime {
 
     public boolean isPrime(int num){
         boolean flag = true;
-        System.out.println(num + " => " + (int)Math.sqrt(num));
         for(int j=2; j<=Math.sqrt(num);j++){
             if(num%j == 0){
                 flag = false;
@@ -23,13 +22,12 @@ public class FindPrime {
     }
     public static void main(String[] args){
         FindPrime fp = new FindPrime();
-
         // TEST CASE
         // 1.
         int n1 = 10;
         int n2 = 5;
 
-        int result = fp.solution(n1);
+        int result = fp.solution(n2);
         System.out.println(result);
     }
 }
