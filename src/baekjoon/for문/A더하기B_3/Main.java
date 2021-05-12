@@ -1,4 +1,4 @@
-package baekjoon.for문.A더하기B3;
+package baekjoon.for문.A더하기B_3;
 
 import java.util.Scanner;
 
