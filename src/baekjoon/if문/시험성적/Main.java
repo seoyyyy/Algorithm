@@ -1,8 +1,8 @@
-package baekjoon.if문;
+package baekjoon.if문.시험성적;
 
 import java.util.Scanner;
 
-public class 시험성적 {
+public class Main {
     private String solution(){
         Scanner sc = new Scanner(System.in);
         int score = sc.nextInt();
@@ -28,7 +28,7 @@ public class 시험성적 {
     }
 
     public static void main(String[] args){
-        시험성적 m = new 시험성적();
+        Main m = new Main();
         String result = m.solution();
         System.out.println(result);
     }

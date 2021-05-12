@@ -1,8 +1,8 @@
-package baekjoon.if문;
+package baekjoon.if문.윤년;
 
 import java.util.Scanner;
 
-public class 윤년 {
+public class Main {
     private int solution(){
         Scanner sc = new Scanner(System.in);
         int score = sc.nextInt();
@@ -15,7 +15,7 @@ public class 윤년 {
     }
 
     public static void main(String[] args){
-        윤년 m = new 윤년();
+        Main m = new Main();
         int result = m.solution();
         System.out.println(result);
     }

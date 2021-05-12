@@ -1,8 +1,8 @@
-package baekjoon.입출력과_사칙연산;
+package baekjoon.입출력과_사칙연산.사칙연산;
 
 import java.util.Scanner;
 
-public class 사칙연산 {
+public class Main {
     public void calculate(){
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
@@ -16,7 +16,7 @@ public class 사칙연산 {
     }
 
     public static void main(String[] args){
-        사칙연산 m = new 사칙연산();
+        Main m = new Main();
         m.calculate();
     }
 }

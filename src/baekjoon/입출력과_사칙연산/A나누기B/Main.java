@@ -1,8 +1,8 @@
-package baekjoon.입출력과_사칙연산;
+package baekjoon.입출력과_사칙연산.A나누기B;
 
 import java.util.Scanner;
 
-public class A나누기B {
+public class Main {
         public void divide(){
             Scanner scan = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class A나누기B {
         }
 
         public static void main(String[] args){
-            A나누기B ab = new A나누기B();
+            Main ab = new Main();
             ab.divide();
         }
 }

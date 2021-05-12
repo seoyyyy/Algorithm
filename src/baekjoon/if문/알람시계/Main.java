@@ -1,8 +1,8 @@
-package baekjoon.if문;
+package baekjoon.if문.알람시계;
 
 import java.util.Scanner;
 
-public class 알람시계 {
+public class Main {
     private void solution(){
         Scanner sc = new Scanner(System.in);
         int hour = sc.nextInt();
@@ -22,7 +22,7 @@ public class 알람시계 {
     }
 
     public static void main(String[] args){
-        알람시계 m = new 알람시계();
+        Main m = new Main();
         m.solution();
 
     }

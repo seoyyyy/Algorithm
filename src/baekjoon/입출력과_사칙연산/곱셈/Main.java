@@ -1,8 +1,8 @@
-package baekjoon.입출력과_사칙연산;
+package baekjoon.입출력과_사칙연산.곱셈;
 
 import java.util.Scanner;
 
-public class 곱셈 {
+public class Main {
     public void multiply(){
         Scanner s = new Scanner(System.in);
 
@@ -26,7 +26,7 @@ public class 곱셈 {
     }
 
     public static void main(String[] args){
-        곱셈 m = new 곱셈();
+        Main m = new Main();
         m.multiply();
     }
 }

@@ -1,6 +1,6 @@
-package baekjoon.입출력과_사칙연산;
+package baekjoon.입출력과_사칙연산.개;
 
-public class 개 {
+public class Main {
     public static void main(String[] ars){
         System.out.println("|\\_/|");
         System.out.println("|q p|   /}");

@@ -1,8 +1,8 @@
-package baekjoon.if문;
+package baekjoon.if문.사분면고르기;
 
 import java.util.Scanner;
 
-public class 사분면고르기 {
+public class Main {
     private int solution(){
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
@@ -20,7 +20,7 @@ public class 사분면고르기 {
     }
 
     public static void main(String[] args){
-        사분면고르기 m = new 사분면고르기();
+        Main m = new Main();
         int result = m.solution();
         System.out.println(result);
     }

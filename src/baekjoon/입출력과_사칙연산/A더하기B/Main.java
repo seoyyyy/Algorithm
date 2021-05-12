@@ -1,8 +1,8 @@
-package baekjoon.입출력과_사칙연산;
+package baekjoon.입출력과_사칙연산.A더하기B;
 
 import java.util.Scanner;
 
-public class A더하기B {
+public class Main {
 
     public void add(){
         Scanner scan = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class A더하기B {
     }
 
     public static void main(String[] args){
-        A더하기B ab = new A더하기B();
+        Main ab = new Main();
         ab.add();
     }
 }

@@ -1,8 +1,8 @@
-package baekjoon.입출력과_사칙연산;
+package baekjoon.입출력과_사칙연산.나머지;
 
 import java.util.Scanner;
 
-public class 나머지 {
+public class Main {
     public void remainder(){
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
@@ -18,7 +18,7 @@ public class 나머지 {
     }
 
     public static void main(String[] args){
-        나머지 m = new 나머지();
+        Main m = new Main();
         m.remainder();
     }
 }

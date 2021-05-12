@@ -1,8 +1,8 @@
-package baekjoon.if문;
+package baekjoon.if문.두수비교하기;
 
 import java.util.Scanner;
 
-public class 두수비교하기 {
+public class Main {
     public String solution(){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -17,7 +17,7 @@ public class 두수비교하기 {
     }
 
     public static void main(String[] args){
-        두수비교하기 m = new 두수비교하기();
+        Main m = new Main();
         String result = m.solution();
         System.out.println(result);
     }

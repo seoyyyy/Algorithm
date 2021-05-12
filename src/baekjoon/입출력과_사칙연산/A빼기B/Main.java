@@ -1,8 +1,8 @@
-package baekjoon.입출력과_사칙연산;
+package baekjoon.입출력과_사칙연산.A빼기B;
 
 import java.util.Scanner;
 
-public class A빼기B {
+public class Main {
     public void minus(){
         Scanner scan = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class A빼기B {
     }
 
     public static void main(String[] args){
-        A빼기B ab = new A빼기B();
+        Main ab = new Main();
         ab.minus();
     }
 }
