@@ -1,4 +1,4 @@
-package programmers.level2.fuc_develop;
+package programmers.level2.fuc_develop_42586;
 
 import java.util.Arrays;
 import java.util.Stack;

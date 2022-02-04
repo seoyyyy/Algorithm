@@ -1,11 +1,11 @@
-package programmers.level2.printer;
+package programmers.level2.printer_42587;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
 // 프린터
-public class Printer {
+public class Solution {
     public int solution(int[] priorities, int location) {
         Queue<Integer> q = new LinkedList();
         Stack<Integer> arr = new Stack<>();
@@ -48,7 +48,7 @@ public class Printer {
         // 2.
         int[] priorities2 ={1, 1, 9, 1, 1, 1};
         int location2 = 0;
-        Printer p = new Printer();
+        Solution p = new Solution();
         int result = p.solution(priorities1,location1);
         System.out.println(result);
     }
