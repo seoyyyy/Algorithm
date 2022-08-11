@@ -1,5 +1,8 @@
 package programmers.level2.joystick_42860;
 
+/**
+ * 조이스틱 42860
+ */
 public class Solution {
 
 //    "JEROEN" 테스트케이스가 풀리지 않는다...
